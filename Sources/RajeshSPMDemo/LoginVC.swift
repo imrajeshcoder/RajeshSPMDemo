@@ -14,7 +14,7 @@ public class LoginVC: UIViewController {
     @IBOutlet weak var passwordTextField: UITextField!
     
     @IBAction func signIn(_ sender: Any) {
-        print("username \(emailTextField.text ?? "") password \(passwordTextField.text ?? "")")
+        print("username \(emailTextField.text ?? "") password \(passwordTextField.text ?? "")") 
     } 
     
     public init() {
